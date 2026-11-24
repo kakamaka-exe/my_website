@@ -3,3 +3,8 @@ function showFact() {
     document.getElementById("fact").textContent =
         "I love Numair Ahmed \"Saad\" Chungtai";
 }
+
+function namea() {
+    let name = document.getElementById("namee").value;
+    alert("Hello, " + name + "!")
+}
