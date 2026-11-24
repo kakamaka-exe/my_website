@@ -6,5 +6,9 @@ function showFact() {
 
 function namea() {
     let name = document.getElementById("namee").value;
-    alert("Hello, " + name + "!")
+    if(name === "") {
+        alert('You don\'t have a name? Ya donkey.')
+    } else {
+        alert("Hello, " + name + "!")
+    }
 }
